@@ -1,0 +1,283 @@
+body{
+    background-color: black;
+}
+.contain{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 5s eases;
+}
+.a{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.a:hover{
+    transform: rotate(45deg);
+}
+.b{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.b:hover{
+    transform: scaleX(0.5);
+}
+.c{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.c:hover{
+    transform: scaleY(0.5);
+}
+.d{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.d:hover{
+    transform: scale(2);
+}
+.e{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.e:hover{
+    width: 160px;
+}
+.f{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.f:hover{
+    height: 160px;
+}
+.g{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.g:hover{
+    transform: scaleX(2);
+}
+.h{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.h:hover{
+    transform: scaleY(2);
+}
+.i{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.i:hover{
+    transform: translateX(50px);
+}
+.j{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.j:hover{
+    transform: translateY(50px);
+}
+.k{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.k:hover{
+    transform: translate(50px , 40px);
+}
+.l{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.l:hover{
+    transform: translate(50px , -40px);
+}
+.m{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.m:hover{
+    transform: translate(-50px , 40px);
+}
+.n{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.n:hover{
+    transform: translate(-50px , -40px);
+}
+.o{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.o:hover{
+    transform: skewX(40deg);
+}
+.p{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.p:hover{
+    transform: skewY(40deg);
+}
+.q{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.q:hover{
+    transform: skewX(-40deg);
+}
+.r{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.r:hover{
+    transform: skewY(-40deg);
+}
+.s{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+}
+.s:hover{
+    transform:scale(0.9) rotate(35deg) skewX(25deg) translate(25px);
+}
+.t{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+    transition: transform 0.3s;
+    transform-origin: bottom right;
+}
+.t:hover{
+    transform: rotate(60deg);
+}
+.x{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+    transition: transform 0.3s;
+    transform-origin:bottom left ;
+}
+.x:hover{
+    transform: rotate(60deg);
+}
+.y{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+    transition: transform 0.3s;
+    transform-origin: top left ;
+}
+.y:hover{
+    transform: rotate(60deg);
+}
+.z{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+    transition: transform 0.3s;
+    transform-origin: top right ;
+}
+.z:hover{
+    transform: rotate(60deg);
+}
+.w{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+    transition: transform 0.3s;
+    transform-origin:center left ;
+}
+.w:hover{
+    transform: rotate(60deg);
+}
+.v{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+    transition: transform 0.3s;
+    transform-origin:center right ;
+}
+.v:hover{
+    transform: rotate(60deg);
+}
+.u{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 5px solid burlywood;
+    margin: 40px;
+    transition: transform 0.3s;
+    transform-origin:center top ;
+}
+.u:hover{
+    transform: rotate(75deg);
+}
